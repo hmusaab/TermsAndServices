@@ -1,0 +1,29 @@
+ /* CSS for animation */
+ .shirt {
+    width: 150px;
+    position: relative;
+    animation: moveShirt 4s infinite alternate; /* Animation property */
+  }
+
+  /* Keyframes for animation */
+  @keyframes moveShirt {
+    0% { left: 0; top: 0; }
+    50% { left: 200px; top: 100px; }
+    100% { left: 0; top: 0; }
+  }
+
+  /* Styles for terms and conditions */
+  .terms-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  p {
+    line-height: 1.6;
+  }
